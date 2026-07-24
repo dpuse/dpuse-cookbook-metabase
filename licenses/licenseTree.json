@@ -1,0 +1,11 @@
+{
+  "version": "0.0.50",
+  "name": "@dpuse/dpuse-cookbook-metabase",
+  "dependencies": {
+    "@dpuse/dpuse-shared": {
+      "version": "0.3.751",
+      "resolved": "https://registry.npmjs.org/@dpuse/dpuse-shared/-/dpuse-shared-0.3.751.tgz",
+      "overridden": false
+    }
+  }
+}
