@@ -17,8 +17,5 @@
     "statusId": "alpha",
     "typeId": "cookbook",
     "recipes": [],
-    "vendorAccountURL": null,
-    "vendorDocumentationURL": null,
-    "vendorHomeURL": null,
-    "version": "0.0.51"
+    "version": "0.0.52"
 }

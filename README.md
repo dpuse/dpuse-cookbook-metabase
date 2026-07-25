@@ -20,34 +20,6 @@ Description...
 
 <!-- OPENING_END -->
 
-## Supported Actions
-
-<!-- CONNECTOR_ACTIONS_START -->
-
-Connectors conform to a unified interface contract by implementing a specific subset of standard actions. These standardised actions allow the DPUse application to interact with any underlying data source in the same way, enabling Connectors to be built independently and loaded dynamically at runtime.
-
-This connector does not yet implement any read or write actions, so its type cannot be determined. Connectors function as a Source (read-only), a Destination (write-only), or Bidirectional (read/write), depending on the actions they support. The table below lists all connector actions and highlights those supported by this connector.
-
-|Action|Supported|
-|:----|:-------:|
-| Abort Operation |  |
-| Audit Object Content |  |
-| Create Object |  |
-| Describe Connection |  |
-| Drop Object |  |
-| Find Object |  |
-| Get Info |  |
-| Get Readable Stream |  |
-| Get Record |  |
-| List Nodes |  |
-| Preview Object |  |
-| Remove Records |  |
-| Retrieve Chunks |  |
-| Retrieve Records |  |
-| Upsert Records |  |
-
-<!-- CONNECTOR_ACTIONS_END -->
-
 ## Usage
 
 <!-- USAGE_START -->
@@ -98,9 +70,9 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 
 |Chunk/Module/File|Composition|
 |:------ |:-----------|
-| dist/dpuse-cookbook-metabase.es.js | 1.5 kB · brotli 693 B |
-| &nbsp;&nbsp;&nbsp;&nbsp;(unassigned) → [unassigned] | `███████████████████░` 94.6% |
-| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| dist/dpuse-cookbook-metabase.es.js | 1.4 kB · brotli 664 B |
+| &nbsp;&nbsp;&nbsp;&nbsp;(unassigned) → [unassigned] | `███████████████████░` 94.4% |
+| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts | `█░░░░░░░░░░░░░░░░░░░` 5.6% |
 
 (unassigned) = bytes Sonda can't trace to a specific source line (whitespace, stray keywords, bundler-injected region markers) — not actual missing/unknown code.
 
