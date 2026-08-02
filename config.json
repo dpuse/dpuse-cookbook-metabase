@@ -1,7 +1,7 @@
 {
     "id": "dpuse-cookbook-metabase",
     "label": {
-        "en": "Metabase Cookbook"
+        "en": "Metabase"
     },
     "description": {
         "en": [
@@ -17,5 +17,5 @@
     "statusId": "alpha",
     "typeId": "cookbook",
     "recipes": [],
-    "version": "0.0.58"
+    "version": "0.0.59"
 }
