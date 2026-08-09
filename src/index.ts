@@ -1,5 +1,5 @@
 // ── External Dependencies & Registrations
-import type { ComponentReference } from '@dpuse/dpuse-shared/component';
+import type { ComponentReferenceConfig } from '@dpuse/dpuse-shared/component';
 import type { CookbookConfig, CookbookInterface } from '@dpuse/dpuse-shared/component/module/cookbook';
 
 // ── Data
@@ -17,7 +17,7 @@ export default class MetabaseCookbook implements CookbookInterface {
     // ── Actions ──────────────────────────────────────────────────────────────────────────────────────────────────────
 
     // Operations - List. TODO: Is this needed? Is 'configPresentations.json' needed????
-    list(): ComponentReference[] {
+    list(): ComponentReferenceConfig[] {
         return [];
     }
 
