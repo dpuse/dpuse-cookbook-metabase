@@ -4,9 +4,7 @@
         "en": "Metabase"
     },
     "description": {
-        "en": [
-            "Description..."
-        ]
+        "en": "Description..."
     },
     "actionNames": [],
     "firstCreatedAt": null,
@@ -17,5 +15,5 @@
     "statusId": "alpha",
     "typeId": "cookbook",
     "recipes": [],
-    "version": "0.0.62"
+    "version": "0.0.63"
 }
