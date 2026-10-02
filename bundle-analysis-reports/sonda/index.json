@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-07-25T10:06:46.112Z",
+    "generatedAt": "2026-10-02T10:28:05.500Z",
     "integration": "vite",
     "sources": false,
-    "gzip": false,
-    "brotli": true
+    "gzip": true,
+    "brotli": false
   },
   "resources": [
     {
@@ -21,9 +21,9 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 1337,
-      "gzip": 0,
-      "brotli": 590,
+      "uncompressed": 2229,
+      "gzip": 474,
+      "brotli": 0,
       "parent": "dist/dpuse-cookbook-metabase.es.js"
     },
     {
@@ -31,22 +31,22 @@
       "name": "config.json",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1562
+      "uncompressed": 2610
     },
     {
       "kind": "asset",
       "name": "dist/dpuse-cookbook-metabase.es.js",
       "type": "script",
-      "uncompressed": 1417,
-      "gzip": 0,
-      "brotli": 664
+      "uncompressed": 2309,
+      "gzip": 557,
+      "brotli": 0
     },
     {
       "kind": "filesystem",
       "name": "src/index.ts",
       "type": "script",
       "format": "esm",
-      "uncompressed": 157
+      "uncompressed": 141
     },
     {
       "kind": "chunk",
@@ -54,8 +54,8 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 80,
-      "gzip": 0,
-      "brotli": 74,
+      "gzip": 83,
+      "brotli": 0,
       "parent": "dist/dpuse-cookbook-metabase.es.js"
     }
   ],

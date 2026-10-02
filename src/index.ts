@@ -1,13 +1,12 @@
 // ── External Dependencies & Registrations
-import type { ComponentReferenceConfig } from '@dpuse/dpuse-shared/component';
-import type { CookbookConfig, CookbookInterface } from '@dpuse/dpuse-shared/component/module/cookbook';
+import type { ComponentReferenceConfig, CookbookConfig, CookbookInterface } from '@dpuse/dpuse-shared';
 
 // ── Data
 import config from '~/config.json';
 
-// ── Presenters ───────────────────────────────────────────────────────────────────────────────────────────────────────
+// ── Cookbook ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 
-export default class MetabaseCookbook implements CookbookInterface {
+export class Cookbook implements CookbookInterface {
     readonly config: CookbookConfig;
 
     constructor() {
