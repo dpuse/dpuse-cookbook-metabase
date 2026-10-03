@@ -6,13 +6,13 @@
 [![DPUse version](https://img.shields.io/github/v/release/dpuse/dpuse-cookbook-metabase?color=f6821f&label=DPUse)](https://github.com/dpuse/dpuse-cookbook-metabase/releases/latest)
 [![CI](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml/badge.svg)](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml)
 
-[DPUse](https://www.dpuse.app) · [Report a Vulnerability](https://github.com/dpuse/dpuse-cookbook-metabase/security/advisories/new) · [Open an Issue](https://github.com/dpuse/dpuse-cookbook-metabase/issues)
-
 Provides...
+
+[Report a Vulnerability](https://github.com/dpuse/dpuse-cookbook-metabase/security/advisories/new) · [Open an Issue](https://github.com/dpuse/dpuse-cookbook-metabase/issues)
 
 ## About DPUse
 
-DPUse (Data Positioning & Use) is an in-browser application that positions your data for use through three core activities: sourcing, contextualising, and publishing.
+[DPUse](https://www.dpuse.app) (Data Positioning & Use) is an in-browser application that positions your data for use through three core activities: sourcing, contextualising, and publishing.
 
 **Sourcing** uses a library of [Connectors](https://www.dpuse.app/connectors) to establish [Connections](https://www.dpuse.app) to applications, databases, file stores, and curated datasets; these connections are subsequently used to configure structured [Data Views](https://www.dpuse.app) from the underlying sources.
 
