@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-10-03T14:53:56.813Z",
+    "generatedAt": "2026-10-06T12:17:00.051Z",
     "integration": "vite",
     "sources": false,
     "gzip": true,
@@ -21,8 +21,8 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 2229,
-      "gzip": 474,
+      "uncompressed": 2267,
+      "gzip": 503,
       "brotli": 0,
       "parent": "dist/dpuse-cookbook-metabase.es.js"
     },
@@ -31,14 +31,14 @@
       "name": "config.json",
       "type": "script",
       "format": "esm",
-      "uncompressed": 2610
+      "uncompressed": 2648
     },
     {
       "kind": "asset",
       "name": "dist/dpuse-cookbook-metabase.es.js",
       "type": "script",
-      "uncompressed": 2309,
-      "gzip": 557,
+      "uncompressed": 2347,
+      "gzip": 586,
       "brotli": 0
     },
     {

@@ -3,7 +3,7 @@
 <!-- OPENING_START -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![DPUse version](https://img.shields.io/github/v/release/dpuse/dpuse-cookbook-metabase?color=f6821f&label=DPUse)](https://github.com/dpuse/dpuse-cookbook-metabase/releases/latest)
+[![DPUse version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.dpuse.app%2Fconfigs%2Fdpuse-cookbook-metabase&query=%24.data.version&prefix=v&label=DPUse&color=f6821f)](https://github.com/dpuse/dpuse-cookbook-metabase/releases/latest)
 [![CI](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml/badge.svg)](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml)
 
 Provides...
@@ -61,6 +61,8 @@ License data is updated each time `npm run document` is run, using [license-chec
 
 The dependency tree below shows how each package in the table above is reached — direct and transitive — along with its installed version, release date, and update status. A package that does not ship itself, such as one whose parts are bundled separately, is left out and what ships beneath it is shown in its place. Packages flagged ❗ have a newer version available; ⚠️ indicates a package that hasn't been updated in the last 6 months or longer. Neither flag necessarily indicates a problem: we let new releases stabilise before upgrading, and some packages are mature and stable (have limited or no dependencies), so they require no active development.
 
+None.
+
 <!-- DEPENDENCY_LICENSES_END -->
 
 <!-- BUNDLE_START -->
@@ -73,9 +75,9 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 
 | Chunk/Module/File                                           | Composition                               |
 | :---------------------------------------------------------- | :---------------------------------------- |
-| **dist/dpuse-cookbook-metabase.es.js**                      | 2.3 kB · gzip 557 B · 100.0% of the build |
-| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts                      | `█░░░░░░░░░░░░░░░░░░░` 3.5% · 80 B        |
-| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON) | `███████████████████░` 96.5% · 2.2 kB     |
+| **dist/dpuse-cookbook-metabase.es.js**                      | 2.3 kB · gzip 586 B · 100.0% of the build |
+| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts                      | `█░░░░░░░░░░░░░░░░░░░` 3.4% · 80 B        |
+| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON) | `███████████████████░` 96.6% · 2.2 kB     |
 
 Bars show each row's share of its output file.
 
