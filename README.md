@@ -3,7 +3,7 @@
 <!-- OPENING_START -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![DPUse version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.dpuse.app%2Fconfigs%2Fdpuse-cookbook-metabase&query=%24.data.version&prefix=v&label=DPUse&color=f6821f)](https://github.com/dpuse/dpuse-cookbook-metabase/releases/latest)
+[![DPUse version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.dpuse.app%2Fconfigs%2Fdpuse-cookbook-metabase&query=%24.data.version&prefix=v&label=DPUse&color=blue)](https://github.com/dpuse/dpuse-cookbook-metabase/releases/latest)
 [![CI](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml/badge.svg)](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml)
 
 Provides...
@@ -73,11 +73,11 @@ This report is updated with each release, from the bundle the release builds, us
 
 _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not generate source maps for CSS._
 
-| Chunk/Module/File                                           | Composition                               |
-| :---------------------------------------------------------- | :---------------------------------------- |
-| **dist/dpuse-cookbook-metabase.es.js**                      | 2.3 kB · gzip 586 B · 100.0% of the build |
-| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts                      | `█░░░░░░░░░░░░░░░░░░░` 3.4% · 80 B        |
-| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON) | `███████████████████░` 96.6% · 2.2 kB     |
+| Chunk/Module/File                                           | Composition                                                                                 |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| **dist/dpuse-cookbook-metabase.es.js**                      | 2.3&nbsp;kB&nbsp;·&nbsp;gzip&nbsp;577&nbsp;B&nbsp;·&nbsp;100.0%&nbsp;of&nbsp;the&nbsp;build |
+| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts                      | `█░░░░░░░░░░░░░░░░░░░`&nbsp;3.4%&nbsp;·&nbsp;80&nbsp;B                                      |
+| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON) | `███████████████████░`&nbsp;96.6%&nbsp;·&nbsp;2.2&nbsp;kB                                   |
 
 Bars show each row's share of its output file.
 
@@ -93,10 +93,11 @@ This section is updated each time `npm run document` is run. Settings come from 
 
 ### Testing
 
-| Check                | Status | What it does                                                                                                                                                                                     |
-| :------------------- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Unit tests           | ✅ On  | [Vitest](https://vitest.dev) runs the unit tests. Part of the [CI workflow](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml) on every push and pull request to `main`. |
-| Property-based tests | ❌ Off | [fast-check](https://fast-check.dev) runs many random inputs per test to find edge cases, alongside the unit tests.                                                                              |
+| Check                | Status | What it does                                                                                                                                                                                                                                                                                                      |
+| :------------------- | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unit tests           | ✅ On  | [Vitest](https://vitest.dev) runs the unit tests. Part of the [CI workflow](https://github.com/dpuse/dpuse-cookbook-metabase/actions/workflows/ci.yml) on every push and pull request to `main`.                                                                                                                  |
+| Property-based tests | ❌ Off | [fast-check](https://fast-check.dev) runs many random inputs per test to find edge cases, alongside the unit tests.                                                                                                                                                                                               |
+| Test coverage        | ✅ On  | ![Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdpuse%2Fdpuse-cookbook-metabase%2Fmain%2Fcode-health-reports%2Fvitest%2Fbadge.json) [Vitest's V8 coverage](https://vitest.dev/guide/coverage) measures the share of source lines the unit tests run. The target is 80%. |
 
 ### Code Quality
 
